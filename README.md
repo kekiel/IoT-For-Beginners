@@ -1,18 +1,6 @@
-[![GitHub license](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
-
-[![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)
-[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)
-[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](translations/README.tr.md)
-
 # IoT for Beginners - A Curriculum
+
+Forked 10.08.2021 from https://github.com/microsoft/IoT-For-Beginners
 
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about IoT basics. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment and more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
 
@@ -21,16 +9,6 @@ The projects cover the journey of food from farm to table. This includes farming
 ![A road map for the course showing 24 lessons covering intro, farming, transport, processing, retail and cooking](sketchnotes/Roadmap.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
-
-**Hearty thanks to our authors [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), and our sketchnote artist [Nitya Narasimhan](https://github.com/nitya).**
-
-**Thanks as well to our team of [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) who have been reviewing and translating this curriculum - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), and [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
-
-Meet the team!
-
-[![Promo video](./images/iot-for-beginners.png)](https://youtu.be/-wippUJRi5k)
-
-> 🎥 Click the image above for a video about the project!
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md).
 
@@ -42,21 +20,9 @@ For a video overview of this course, check out this video:
 
 > 🎥 Click the image above for a video about the project!
 
-## Pedagogy
-
-We have chosen two pedagogical tenets while building this curriculum: ensuring that it is project-based and that it includes frequent quizzes. By the end of this series, students will have built a plant monitoring and watering system, a vehicle tracker, a smart factory setup to track and check food, and a voice-controlled cooking timer, and will have learned the basics of the Internet of Things including how to write device code, connect to the cloud, analyze telemetry and run AI on the edge.
-
-By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented.
-
-In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12 week cycle.
-
-Each project is be based around real-world hardware available to students and hobbyists. Each project looks into the specific project domain, providing relevant background knowledge. To be a successful developer it helps to understand the domain in which you are solving problems, providing this background knowledge allows students to think about their IoT solutions and learnings in the context of the kind of real-world problem that they might be asked to solve as an IoT developer. Students learn the 'why' of the solutions they are building, and get an appreciation of the end user.
-
 ## Hardware
 
-We have two choices of IoT hardware to use for the projects depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn more before committing to a purchase. You can read more and find a 'shopping list' on the [hardware page](./hardware.md), including links to buy complete kits from our friends at Seeed Studio.
-
-> 💁 Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+The [hardware page](./hardware.md), including links to buy complete kits from our friends at Seeed Studio.
 
 ## Each lesson includes:
 
@@ -102,34 +68,6 @@ We have two choices of IoT hardware to use for the projects depending on persona
 | 23 | [Consumer](./6-consumer) | Set a timer and provide spoken feedback | Learn how to set a timer on an IoT device and give spoken feedback on when the timer is set and when it finishes | [Set a timer and provide spoken feedback](./6-consumer/lessons/3-spoken-feedback/README.md) |
 | 24 | [Consumer](./6-consumer) | Support multiple languages | Learn how to support multiple languages, both being spoken to and the responses from your smart timer | [Support multiple languages](./6-consumer/lessons/4-multiple-language-support/README.md) |
 
-## Offline access
-
-You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
-
-### PDF
-
-You can generate a PDF of this content for offline access if needed. To do this, make sure you have [npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and run the following commands in the root folder of this repo:
-
-```sh
-npm i
-npm run convert
-```
-
 ### Slides
 
 There are slide decks for some of the lessons in the [slides](./slides) folder.
-
-## Help Wanted!
-
-Would you like to contribute a translation? Please read our [translation guidelines](TRANSLATIONS.md) and add input [to one of the translations issues](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). If you want to translate into a new language, please raise a new issue for tracking.
-
-## Other Curricula
-
-Our team produces other curricula! Check out:
-
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
-- [ML for Beginners](https://aka.ms/ml-beginners)
-
-## Image attributions
-
-You can find all the attributions for the images used in this curriculum where required in the [Attributions](./attributions.md).
