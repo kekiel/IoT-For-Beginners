@@ -64,7 +64,9 @@ _Due to chip shortage, we have replaced STM32 with MM32 in the latest version of
 
     sudo nano /usr/local/lib/python3.7/dist-packages/grove/adc.py
     
-'RPI_HAT_PID = 0x0008' => 'RPI_HAT_PID = 0x0004'
+_Change line:_
+
+    def __init__(self, address = 0x08):
 
 1. Reboot the Pi either using the menu or running the following command in the Terminal:
 
