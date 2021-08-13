@@ -55,6 +55,14 @@ MQTT has a single broker and multiple clients. All clients connect to the broker
 
 The first part of adding Internet control to your nightlight is connecting it to an MQTT broker.
 
+##### MQTT Explorer on Raspberry 
+
+Download MQTT-Explorer-...-armv7l.AppImage [from releases](https://github.com/thomasnordquist/MQTT-Explorer/releases), make it executable via `sudo chmod +x MQTT-Explorer-...-armv7l.AppImage` and start via `./MQTT-Explorer-...-armv7l.AppImage`
+
+##### Mosquitto MQTT Server
+
+    sudo apt install mosquitto
+
 #### Task
 
 Connect your device to an MQTT broker.
