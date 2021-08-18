@@ -60,6 +60,10 @@ To program the Pi using the Grove sensors and actuators, you will need to instal
 
     One of the powerful features of Python is the ability to install [Pip packages](https://pypi.org) - these are packages of code written by other people and published to the Internet. You can install a Pip package onto your computer with one command, then use that package in your code. This Grove install script will install the Pip packages you will use to work with the Grove hardware from Python.
     
+1. Check I2C config of the grove hat
+
+    i2cdetect -y -r 0
+    
 _Due to chip shortage, we have replaced STM32 with MM32 in the latest version of the product, and the I2C address of the corresponding product has been changed from 0x04 to 0x08 in the old version, please change the I2C address in adc.py from 0x04 to 0x08 when using the library file provided by seed for development._
 
     sudo nano /usr/local/lib/python3.7/dist-packages/grove/adc.py
