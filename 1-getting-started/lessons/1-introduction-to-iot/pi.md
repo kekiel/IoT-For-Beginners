@@ -59,10 +59,16 @@ To program the Pi using the Grove sensors and actuators, you will need to instal
     ```
 
     One of the powerful features of Python is the ability to install [Pip packages](https://pypi.org) - these are packages of code written by other people and published to the Internet. You can install a Pip package onto your computer with one command, then use that package in your code. This Grove install script will install the Pip packages you will use to work with the Grove hardware from Python.
-    
+
+1. Reboot the Pi either using the menu or running the following command in the Terminal:
+
+    ```sh
+    sudo reboot
+    ```
+
 1. Check I2C config of the grove hat
 
-    i2cdetect -y -r 0
+    sudo i2cdetect -y 1
     
 _Due to chip shortage, we have replaced STM32 with MM32 in the latest version of the product, and the I2C address of the corresponding product has been changed from 0x04 to 0x08 in the old version, please change the I2C address in adc.py from 0x04 to 0x08 when using the library file provided by seed for development._
 
@@ -71,12 +77,6 @@ _Due to chip shortage, we have replaced STM32 with MM32 in the latest version of
 _Change line:_
 
     def __init__(self, address = 0x08):
-
-1. Reboot the Pi either using the menu or running the following command in the Terminal:
-
-    ```sh
-    sudo reboot
-    ```
 
 1. Once the Pi has rebooted, relaunch the Terminal and run the following command to install [Visual Studio Code (VS Code)](https://code.visualstudio.com?WT.mc_id=academic-17441-jabenn) - this is the editor you will be using to write your device code in Python.
 
