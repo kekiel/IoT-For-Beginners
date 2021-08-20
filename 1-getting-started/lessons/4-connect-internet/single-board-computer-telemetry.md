@@ -35,7 +35,7 @@ Publish telemetry to the MQTT broker.
     ```python
     while True:
         light = light_sensor.light
-        telemetry = json.dumps({'light' : light})
+        telemetry = json.dumps({'light' : light, 'name' : id})
 
         print("Sending telemetry ", telemetry)
     
