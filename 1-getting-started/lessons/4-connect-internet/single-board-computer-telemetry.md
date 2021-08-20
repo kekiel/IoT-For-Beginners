@@ -25,7 +25,7 @@ Publish telemetry to the MQTT broker.
 1. Add the following after the `client_name` declaration:
 
     ```python
-    client_telemetry_topic = id + '/telemetry'
+    client_telemetry_topic = 'kekiot/' + id + '/telemetry'
     ```
 
     The `client_telemetry_topic` is the MQTT topic the device will publish light levels to.
