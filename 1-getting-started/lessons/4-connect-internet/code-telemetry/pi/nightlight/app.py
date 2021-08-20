@@ -9,7 +9,7 @@ led = GroveLed(5)
 
 id = '<ID>'
 
-client_telemetry_topic = id + '/telemetry'
+client_telemetry_topic = 'kekiot/' + id + '/telemetry'
 client_name = id + 'nightlight_client'
 
 mqtt_client = mqtt.Client(client_name)
